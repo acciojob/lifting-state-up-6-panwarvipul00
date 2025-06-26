@@ -7,8 +7,7 @@ function TodoList({ todos, onComplete }) {
         <li key={todo.id} style={{ marginBottom: '10px' }}>
           <span
             style={{
-              textDecorationLine: todo.completed ? 'line-through' : 'none', // 👈 force line-through
-              textDecorationStyle: 'solid',
+              textDecorationLine: todo.completed ? 'line-through' : 'none',
               marginRight: '10px'
             }}
           >
